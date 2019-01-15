@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- metadata -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- title -->
+  <title>HTML Samples</title>
+
+  <!-- import javascript and css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css" />
+  <link rel="stylesheet" href="stylesheets/styles.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" />
+  <script src="javascripts/main.js"></script>
+
+</head>
+
+<body>
+
+  <header>
+
+    <div class="hero">
+      <h1>Show Some Style</h1>
+    </div>
+
+    <nav>
+        <a href="#paragraphs">Paragraphs</a>
+        <a href="#lists">Lists</a>
+        <a href="#tables">Tables</a>
+        <a href="#forms">Forms</a>
+    </nav>
+  </header>
+
+
+
+  <section id="paragraphs">
+
+    <div class="section-body">
+      <h2>Paragraphs</h2>
+
+      <img src="images/photo.jpg" alt="A barn in a corn field." />
+
+      <p>This is a short paragraph.</p>
+
+      <p>
+        This is a long paragraph. This word is <strong>strong</strong>
+        and this one has <em>emphasis</em>.
+        Elit proident pariatur non mollit duis excepteur elit.
+        Cupidatat do consequat voluptate nisi veniam aliquip nulla labore consequat magna qui eu duis reprehenderit.
+        Id ut anim labore voluptate minim esse sint consequat in.
+        Ipsum quis deserunt aliqua minim.
+        Labore laborum Lorem cillum ipsum culpa ullamco anim cillum Lorem nisi.
+        <a href="http://blc.edu/">Check out your alma mater</a>
+      </p>
+
+      <p>
+        &lt;br&gt; sample<br />
+        This paragraph contains line breaks.<br />
+        At the end of each line.
+      </p>
+    </div>
+
+  </section>
+
+  <section id="lists">
+    <div class="section-body">
+
+      <h2>Lists</h2>
+
+      <ul class="bullet">
+        <li>&lt;ul&gt; is an unordered list</li>
+        <li>each list item is &lt;li&gt;</li>
+        <li>Magna sint esse id adipisicing.</li>
+        <li>Ullamco laborum sit nostrud in ea.</li>
+        <li>Officia duis consequat eiusmod commodo tempor exercitation Lorem est aliquip cupidatat qui.</li>
+      </ul>
+
+      <ul class="outline">
+        <li>&lt;ol&gt; is an ordered list</li>
+        <li>each list item is &lt;li&gt;</li>
+        <li>Magna sint esse id adipisicing.</li>
+        <li>Ullamco laborum sit nostrud in ea.</li>
+        <li>Officia duis consequat eiusmod commodo tempor exercitation Lorem est aliquip cupidatat qui.</li>
+      </ul>
+
+    </div>
+
+  </section>
+
+
+  <section id="tables">
+
+    <div class="section-body">
+
+      <h2>Tables</h2>
+
+      <h3>A Simple Table</h3>
+
+      <table>
+        <tr>
+          <td>one</td>
+          <td>two</td>
+          <td>three</td>
+        </tr>
+        <tr>
+          <td>one</td>
+          <td>two</td>
+          <td>three</td>
+        </tr>
+        <tr>
+          <td>one</td>
+          <td>two</td>
+          <td>three</td>
+        </tr>
+        <tr>
+          <td>one</td>
+          <td>two</td>
+          <td>three</td>
+        </tr>
+      </table>
+
+      <h3>A Table With Headers</h3>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Heading One</th>
+            <th>Heading Two</th>
+            <th>Heading Three</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td colspan="2">2</td>
+          </tr>
+          <tr>
+            <td colspan="3">1</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>A Table With Borders</h3>
+
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Heading One</th>
+            <th>Heading Two</th>
+            <th>Heading Three</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td colspan="2">2</td>
+          </tr>
+          <tr>
+            <td colspan="3">1</td>
+          </tr>
+        </tbody>
+      </table>
+    </div> 
+
+  </section>
+    
+  <section id="forms">
+
+    <div class="section-body">
+      <h2>Forms</h2>
+
+      <form role="search" method="get" id="searchform" class="searchform" action="http://www.google.com/search">
+        <div id="gform">
+          <label for="q">Keywords</label>
+          <input type="text" value="" name="q" id="q">
+          <input type="submit" value="Search Google">
+        </div>
+      </form>
+    </div>
+
+  </section>
+
+  <footer>
+      Photo by Zachary Sinclair on Unsplash. Photo by Patrick Fore on Unsplash.
+  </footer>
+
+</body>
+
+</html>
